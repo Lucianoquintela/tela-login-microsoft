@@ -77,9 +77,6 @@ main .entrarComChave{
 main .botaoProximo{
    margin-top: 100px;
    margin-left:220px;
-}
-
-button{
    background-color: #2677C1;
    color: white;
    border:none;
@@ -87,6 +84,7 @@ button{
    height: 25px;
    cursor:pointer;
 }
+
 
 
 
