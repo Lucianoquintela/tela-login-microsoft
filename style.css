@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: whitesmoke;
+    margin: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+   background-color: whitesmoke;
+   width: 400px;
+   height: 440px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   overflow: hidden;
+}
+
+.logo-microssoft{
+   width: 50px;
+   heigt:50px;
+}
+
+.entrada{
+   background-color:#ffffff ;
+   width: 100%;
+   height: 500px;
+   padding:30px ;
+}
+
+.formasDeEntrada{
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+   background-color:rgb(255, 255, 255) ;
+   height: 190px;
+  margin-top: 10px;
+}
+
+input{
+   border: none;
+   margin-top: 10px;
+}
+
+/* Remover bordas ao clicar no input */
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.linha{
+  width: 330px;
+}
+
+main a {
+  color:#2677C1;
+  text-decoration: none;
+}
+
+main .textoEntrar{
+  margin-top: 15px;
+}
+
+main .crieConta {
+  margin-top: 15px;
+}
+
+main .entrarComChave{
+  margin-top: 20px;
+}
+
+main .botaoProximo{
+  margin-top: 100px;
+  margin-left:220px;
+}
+
+button{
+  background-color: #2677C1;
+  color: white;
+  border:none;
+   
+  width:110px;
+  height: 25px;
+}
+
+
+
